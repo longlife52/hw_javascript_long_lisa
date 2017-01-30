@@ -1,5 +1,5 @@
 var president44 = {
-    firstName: 'Barack',
+    firstName: 'Barack ',
     lastName: 'Obama',
     termLength: 8,
     party: 'Democrat',
@@ -7,7 +7,7 @@ var president44 = {
 };
 
 var president43 = {
-    firstName: 'George',
+    firstName: 'George ',
     lastName: 'Bush',
     termLength: 8,
     party: 'Republican',
@@ -15,7 +15,7 @@ var president43 = {
 };
 
 var president42 = {
-    firstName: 'Bill',
+    firstName: 'Bill ',
     lastName: 'Clinton',
     termLength: 8,
     party: 'Democrat',
@@ -23,7 +23,7 @@ var president42 = {
 };
 
 var president41 = {
-    firstName: 'George',
+    firstName: 'George ',
     lastName: 'Bush',
     termLength: 4,
     party: 'Republican',
@@ -31,9 +31,13 @@ var president41 = {
 };
 
 var president40 = {
-    firstName: 'Ronald',
+    firstName: 'Ronald ',
     lastName: 'Reagan',
     termLength: 8,
     party: 'Republican',
     yearsOfPresidency: '1981-1989'
 };
+
+var presidents = [president40, president41, president42, president43, president44];
+console.log(president42.firstName + president42.lastName);
+console.log(presidents[2].firstName + presidents[2].lastName);

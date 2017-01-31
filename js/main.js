@@ -23,6 +23,5 @@ numba('university');
 function inception(display, favMovie) {
     return favMovie + 'is a fantastic movie.';
 }
-var display = inception('null', 'A Wonderful Life ');
-console.log(display);
-inception();
+var choice = inception('null', 'A Wonderful Life ');
+console.log(choice);
